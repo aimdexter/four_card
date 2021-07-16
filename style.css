@@ -54,7 +54,7 @@ header p {
   font-weight: 400;
 }
 
-.main {
+.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,7 +72,7 @@ header p {
   font-family: 'Poppins', sans-serif;
 }
 
-.main .card-1 {
+.wrapper .card-1 {
   display: -ms-grid;
   display: grid;
   position: relative;
@@ -93,7 +93,7 @@ header p {
   border-top: 4px solid #45d3d3;
 }
 
-.main .card-1 h1 {
+.wrapper .card-1 h1 {
   font-weight: 600;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
@@ -104,7 +104,7 @@ header p {
   font-size: 20px;
 }
 
-.main .card-1 p {
+.wrapper .card-1 p {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
@@ -114,7 +114,7 @@ header p {
   color: #a3a5ae;
 }
 
-.main .card-1::before {
+.wrapper .card-1::before {
   content: url(./images/icon-supervisor.svg);
   position: absolute;
   left: 68%;
@@ -123,7 +123,7 @@ header p {
   height: 0%;
 }
 
-.main .card-2 {
+.wrapper .card-2 {
   display: -ms-grid;
   display: grid;
   position: relative;
@@ -144,7 +144,7 @@ header p {
   border-top: 4px solid #ea5353;
 }
 
-.main .card-2 h1 {
+.wrapper .card-2 h1 {
   font-weight: 600;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
@@ -155,7 +155,7 @@ header p {
   font-size: 20px;
 }
 
-.main .card-2 p {
+.wrapper .card-2 p {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
@@ -165,7 +165,7 @@ header p {
   color: #a3a5ae;
 }
 
-.main .card-2::before {
+.wrapper .card-2::before {
   content: url(./images/icon-team-builder.svg);
   position: absolute;
   left: 68%;
@@ -174,7 +174,7 @@ header p {
   height: 0%;
 }
 
-.main .card-3 {
+.wrapper .card-3 {
   display: -ms-grid;
   display: grid;
   position: relative;
@@ -195,7 +195,7 @@ header p {
   border-top: 4px solid #fcaf4a;
 }
 
-.main .card-3 h1 {
+.wrapper .card-3 h1 {
   font-weight: 600;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
@@ -206,7 +206,7 @@ header p {
   font-size: 20px;
 }
 
-.main .card-3 p {
+.wrapper .card-3 p {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
@@ -216,7 +216,7 @@ header p {
   color: #a3a5ae;
 }
 
-.main .card-3::before {
+.wrapper .card-3::before {
   content: url(./images/icon-karma.svg);
   position: absolute;
   left: 68%;
@@ -225,7 +225,7 @@ header p {
   height: 0%;
 }
 
-.main .card-4 {
+.wrapper .card-4 {
   display: -ms-grid;
   display: grid;
   position: relative;
@@ -246,7 +246,7 @@ header p {
   border-top: 4px solid #549ef2;
 }
 
-.main .card-4 h1 {
+.wrapper .card-4 h1 {
   font-weight: 600;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
@@ -257,7 +257,7 @@ header p {
   font-size: 20px;
 }
 
-.main .card-4 p {
+.wrapper .card-4 p {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
@@ -267,7 +267,7 @@ header p {
   color: #a3a5ae;
 }
 
-.main .card-4::before {
+.wrapper .card-4::before {
   content: url(./images/icon-calculator.svg);
   position: absolute;
   left: 68%;
@@ -277,7 +277,7 @@ header p {
 }
 
 @media (min-width: 1125px) {
-  .wrapper {
+  .main {
     display: -ms-grid;
     display: grid;
     justify-items: center;
@@ -292,7 +292,7 @@ header p {
   header h2 {
     font-size: 33px;
   }
-  .main {
+  .wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[3];
@@ -300,27 +300,27 @@ header p {
     -ms-grid-rows: (fr)[3];
         grid-template-rows: repeat(3, fr);
   }
-  .main .card-1 {
+  .wrapper .card-1 {
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-area: 1/1/4/2;
   }
-  .main .card-2 {
+  .wrapper .card-2 {
     -ms-grid-row: 1;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-area: 1/2/1/3;
   }
-  .main .card-3 {
+  .wrapper .card-3 {
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-area: 3/2/4/3;
   }
-  .main .card-4 {
+  .wrapper .card-4 {
     -ms-grid-row: 4;
     -ms-grid-row-span: -3;
     -ms-grid-column: 3;

@@ -50,7 +50,7 @@ header{
     }
 }
 
-.main{
+.wrapper{
     display: flex;
     gap: 30px;
     flex-flow:row wrap;
@@ -126,7 +126,7 @@ header{
 }
 
 @media (min-width: 1125px) {
-    .wrapper{
+    .main{
         display: grid;
         justify-items: center;
     }
@@ -141,7 +141,7 @@ header{
         }
     }
     
-    .main{
+    .wrapper{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(3,fr) ;
