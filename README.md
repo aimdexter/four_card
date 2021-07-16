@@ -27,7 +27,7 @@ Users should be able to:
 ![](./images/desktop.png)
 
 - Mobile
-![](./images/mobile.png)
+![](./images/phone.png)
 
 ### Links
 
